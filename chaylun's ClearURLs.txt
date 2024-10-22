@@ -1,5 +1,5 @@
 ! Title:chaylun's ClearURLs
-! Version: 20241018
+! Version: 20241022
 ! Expires: 2 days
 ! Homepage: https://github.com/chaylun/Ad-Block/tree/main
 
@@ -9,6 +9,7 @@ $removeparam=share_app_name
 $removeparam=share_medium
 $removeparam=share_source
 $removeparam=utm_oi
+$removeparam=spm
 
 ! 特定清理规则
 ! 小红书
@@ -26,6 +27,39 @@ $removeparam=utm_oi
 ||xiaohongshu.com^$removeparam=apptime,doc
 ||xiaohongshu.com^$removeparam=share_id,doc
 
+! 哔哩哔哩
+||bilibili.com^$removeparam=/^current.*$/
+||bilibili.com^$removeparam=/^from.*$/
+||bilibili.com^$removeparam=/^network.*$/
+||bilibili.com^$removeparam=/^playurl.*$/
+||bilibili.com^$removeparam=/^share_.*$/
+||bilibili.com^$removeparam=accept_quality
+||bilibili.com^$removeparam=bbid
+||bilibili.com^$removeparam=broadcast_type
+||bilibili.com^$removeparam=bsource
+||bilibili.com^$removeparam=hotRank
+||bilibili.com^$removeparam=p2p_type
+||bilibili.com^$removeparam=platform_network_status
+||bilibili.com^$removeparam=quality_description
+||bilibili.com^$removeparam=referfrom
+||bilibili.com^$removeparam=seid
+||bilibili.com^$removeparam=spm_id_from
+||bilibili.com^$removeparam=tdsourcetag
+||bilibili.com^$removeparam=unique_k
+||bilibili.com^$removeparam=buvid
+||bilibili.com^$removeparam=is_story_h5
+||bilibili.com^$removeparam=mid
+||bilibili.com^$removeparam=p
+||bilibili.com^$removeparam=plat_id
+||bilibili.com^$removeparam=share_from
+||bilibili.com^$removeparam=share_medium
+||bilibili.com^$removeparam=share_plat
+||bilibili.com^$removeparam=share_session_id
+||bilibili.com^$removeparam=share_source
+||bilibili.com^$removeparam=share_tag
+||bilibili.com^$removeparam=timestamp
+||bilibili.com^$removeparam=up_id
+
 ! 微信
 ||mp.weixin.qq.com^$removeparam=/^abtest_/
 ||mp.weixin.qq.com^$removeparam=/^fasttmpl_/
@@ -41,3 +75,4 @@ $removeparam=utm_oi
 ||mp.weixin.qq.com^$removeparam=subscene
 ||mp.weixin.qq.com^$removeparam=version
 ||mp.weixin.qq.com^$removeparam=wx_header
+
