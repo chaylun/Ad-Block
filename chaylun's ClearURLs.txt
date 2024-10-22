@@ -9,7 +9,6 @@ $removeparam=share_app_name
 $removeparam=share_medium
 $removeparam=share_source
 $removeparam=utm_oi
-$removeparam=spm
 
 ! 特定清理规则
 ! 小红书
