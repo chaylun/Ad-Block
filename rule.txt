@@ -17,14 +17,11 @@ $removeparam=utm_oi
 ||xiaohongshu.com^$removeparam=app_version,doc
 ||xiaohongshu.com^$removeparam=share_from_user_hidden,doc
 ||xiaohongshu.com^$removeparam=xsec_source,doc
-||xiaohongshu.com^$removeparam=source,doc
 ||xiaohongshu.com^$removeparam=type,doc
-||xiaohongshu.com^$removeparam=xsec_token,doc
 ||xiaohongshu.com^$removeparam=author_share,doc
 ||xiaohongshu.com^$removeparam=xhsshare,doc
 ||xiaohongshu.com^$removeparam=shareRedId,doc
 ||xiaohongshu.com^$removeparam=apptime,doc
-||xiaohongshu.com^$removeparam=share_id,doc
 
 ! 微信
 ||mp.weixin.qq.com^$removeparam=/^abtest_/
